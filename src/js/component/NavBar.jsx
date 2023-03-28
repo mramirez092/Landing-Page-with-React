@@ -1,11 +1,7 @@
 import React from "react";
 
-//include images into your bundle
-
-
-//create your first component
 const NavBar = () => {
-	return (
+    return (
 <nav class="navbar navbar-expand-lg bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand text-light" href="#">Start Bootstrap</a>
@@ -22,7 +18,7 @@ const NavBar = () => {
     </div>
   </div>
 </nav>
-	);
+    );
 };
 
 export default NavBar;
