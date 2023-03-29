@@ -3,6 +3,7 @@ import htmlImage from "../../img/html.jpg"
 import cssImage from "../../img/css.jpg"
 import jsImage from "../../img/js.jpg"
 import reactImage from "../../img/react.jpg"
+
 const cardsData = [
   {
     image: htmlImage,
@@ -28,9 +29,11 @@ const cardsData = [
 
 const Cards = () => {
   return (
-    <div className="d-flex container gap-4 pb-5">
+    <div className="d-flex container column-gap-3 pb-5">
+      <div className="row row-cols-1 row-cols-md-3 flex-wrap">
+     
       {cardsData.map(card => (
-        <div key={card.title} className="card" style={{ width: "325px", height: "450px" }}>
+        <div prop={card.title} className="card" style={{ width: "325px", height: "430px" }}>
           <img src={card.image} className="card-img-top" alt={card.title} />
           <div className="card-body">
             <h5 className="card-title">{card.title}</h5>
@@ -39,7 +42,10 @@ const Cards = () => {
           </div>
         </div>
       ))}
-    </div>
+     
+        </div>
+      </div>
+  
   );
 };
 
