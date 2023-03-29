@@ -4,7 +4,7 @@ import Jumbotron from "./Jumbotron.jsx";
 import Cards from "./Cards.jsx";
 
 //include images into your bundle
-import htmlImage from "../../img/html.jpg";
+
 
 //create your first component
 const Home = () => {
