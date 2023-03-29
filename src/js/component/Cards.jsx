@@ -28,7 +28,7 @@ const cardsData = [
 
 const Cards = () => {
   return (
-    <div className="d-flex container gap-4">
+    <div className="d-flex container gap-4 pb-5">
       {cardsData.map(card => (
         <div key={card.title} className="card" style={{ width: "325px", height: "450px" }}>
           <img src={card.image} className="card-img-top" alt={card.title} />

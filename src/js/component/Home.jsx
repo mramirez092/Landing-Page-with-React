@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "./NavBar.jsx";
 import Jumbotron from "./Jumbotron.jsx";
 import Cards from "./Cards.jsx";
-
+import Footer from "./Footer.jsx";
 //include images into your bundle
 
 
@@ -13,6 +13,7 @@ const Home = () => {
     <NavBar />
     <Jumbotron />
     <Cards />
+    <Footer />
   </div>
 	);
 };
