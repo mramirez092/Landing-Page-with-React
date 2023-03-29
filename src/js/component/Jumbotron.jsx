@@ -10,6 +10,6 @@ const Jumbotron = () => {
             <a class="btn btn-primary btn-lg" href="#" role="button">Call to Action</a>
 </div>
 );
-};g
+};
 
 export default Jumbotron;
